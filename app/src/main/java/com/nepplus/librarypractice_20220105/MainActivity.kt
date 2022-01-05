@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
 //      Glide 이용 => 웹의 이미지를 -> imREcent에 반영하기
-        Glide.with(this).load("https://d3n24gmmpz5ort.cloudfront.net/2021/02/1edea7cf8a24b3a46558fccd4cc61ea4/%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg")
+        Glide.with(this).load("https://d3n24gmmpz5ort.cloudfront.net/2021/02/1edea7cf8a24b3a46558fccd4cc61ea4/%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg").into(imgRecent)
 
     }
 }
